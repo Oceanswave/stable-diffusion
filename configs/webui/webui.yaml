@@ -12,7 +12,7 @@ txt2img:
   # 5: Write sample info files
   # 6: Fix faces using GFPGAN
   # 7: Upscale images using Real-ESRGAN
-  toggles: [1, 2, 4, 5 ]
+  toggles: [1, 2, 4, 5, 8 ]
   sampler_name: k_euler
   ddim_eta: 0.0  # legacy name, applies to all algorithms.
   n_iter: 3
@@ -39,7 +39,7 @@ img2img:
   # 7: Write sample info files
   # 8: Fix faces using GFPGAN
   # 9: Upscale images using Real-ESRGAN
-  toggles: [1, 4, 6, 7, 8 ]
+  toggles: [1, 4, 6, 7, 8, 10 ]
   sampler_name: k_euler
   ddim_eta: 0.0
   n_iter: 3
